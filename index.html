@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link 
+        rel="stylesheet" 
+        href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Samidha</a>
+        <nav class="navbar">
+            <a href="#" class="active" style="--i: 1">Home</a>
+            <a href="#about" style="--i: 2">About</a>
+            <a href="#skills" style="--i: 3">Skills</a>
+            <a href="#contact" style="--i: 4">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="img-container">
+            <div class="info-side">
+                <h3 class="part-1">Hello, It's Me</h3>
+                <h1>Samidha Kadam</h1>
+                <h3 class="part-2">And I'm a <span id="changing-text">Front-end Developer</span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+                   harum.adipisicing elit. Minima, harum .adipisicing elit. Minima, harum!
+                </p>
+
+                
+                <a href="https://github.com/Samidha-kadam"><i class="uil uil-github-alt" style="--i: 7"></i></a>
+                <a href="https://www.linkedin.com/in/samidha-kadam-118901229"><i class="uil uil-linkedin-alt" style="--i: 6"></i></a>
+                <br /> 
+                <button class="btn">Download CV</button>
+            </div>
+
+            <div class="img">
+                <img src="img/me.png" alt="My Pic" />
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <div class="info-side">
+                <h1 class="heading">About <span>Me</span></h1>
+                    <h3 class="text-animation">
+                    <span>Front-end Developer</span>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Quibusdam ad tenetur 
+                    totam modi possimus commodi ut soluta, 
+                    numquam cum nam, vel delectus voluptas 
+                    reiciendis labore dolores maxime. Harum, 
+                    quia magnam.</p>
+                    <button class="btn">Read More</button>
+            </div>
+            
+            <div class="about-img">
+                <img src="img/me.png" alt="My Pic">
+            </div>
+        </div>
+    </section>
+   
+    <section class="skills" id="skills">
+        <h1 class="heading">Skills</h1>
+        <div class="skills-container">
+            <div class="skills-box">
+                <div class="skill-info">
+                    <h4>Front-end Developer</h4>
+                    <p>Lorem, ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Odio quas inventore vero facilis 
+                        amet error!</p>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skill-info">
+                    <h4>JAVA</h4>
+                    <p>Lorem, ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Odio quas inventore vero facilis 
+                        amet error!</p>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skill-info">
+                    <h4>Data Structures</h4>
+                    <p>Lorem, ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Odio quas inventore vero facilis 
+                        amet error!</p>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skill-info">
+                    <h4>Python</h4>
+                    <p>Lorem, ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Odio quas inventore vero facilis 
+                        amet error!</p>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skill-info">
+                    <h4>Operating System</h4>
+                    <p>Lorem, ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Odio quas inventore vero facilis 
+                        amet error!</p>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skill-info">
+                    <h4>SQL</h4>
+                    <p>Lorem, ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Odio quas inventore vero facilis 
+                        amet error!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact <span>Me</span></h1>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="FullName">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="7" placeholder="Your Message"></textarea>
+            <!--<input type="submit" value="Send Message" class="btn">-->
+            <button class="btn">Send Message</button>
+
+        </form>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
